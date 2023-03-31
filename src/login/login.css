@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    display: flex;
+    width: 907px;
+    height: 720px;
+    left: 373px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #0D1B2A 0%, #1B263B 100%);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    width: 307px;
+    height: 48px;
+    left: 499px;
+    top: 33px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100.5%;
+    /* or 48px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    position: absolute;
+    width: 374px;
+    height: 24px;
+    left: 499px;
+    top: 93px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100.5%;
+    /* or 24px */
+
+    color: white;
+}
+
+
+.contenedor-lateral-izquierdo {
+    width: 396px;
+    height: 720px;
+}
+
+.imagen-lateral {
+    position: absolute;
+    width: 396px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(11px 0px 53px rgba(0, 82, 204, 0.17));
+    border-radius: 0px 10px 10px 0px;
+    object-fit: cover;
+    /* Esta propiedad sirve para expandir la imagen al contenedor sin que se distorcione */
+}
+
+
+.contenedor-formulario {
+    position: absolute;
+    width: 725px;
+    height: 397px;
+    left: 497px;
+    top: 145px;
+
+    background: linear-gradient(180deg, #0D1B2A 0%, #1A263A 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.label-email {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 29px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100.5%;
+    /* or 24px */
+
+    text-align: center;
+
+    color: #3083EC;
+}
+
+.label-contra {
+    position: absolute;
+    width: 95px;
+    height: 16px;
+    padding-left: 20px;
+    padding-top: 146px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100.5%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.emailCampo {
+    position: absolute;
+    width: 684px;
+    height: 52px;
+    margin-top: 59px;
+    margin-left: 20px;
+    background: #1F354F;
+    border-radius: 5px;
+    border: none;
+
+    color: white;
+    font-family: 'Poppins';
+    
+}
+
+.passCampo {
+    position: absolute;
+    width: 684px;
+    height: 52px;
+    margin-top: 168px;
+    margin-left: 20px;
+    border: none;
+    background: #1F354F;
+    border-radius: 5px;
+}
+
+.problemas {
+    position: absolute;
+    width: 317px;
+    height: 16px;
+    margin-top: 338px;
+    margin-left: 204px;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100.5%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #2C4875;
+}
+
+.boton-iniciar {
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    margin-left: 212px;
+    margin-top: 256px;
+
+    background: linear-gradient(91.07deg, #E0E1DD 4.32%, #778DA9 97.37%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    border: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100.5%;
+    /* or 24px */
+
+    text-align: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+.otambien,
+.boton-registrar {
+    position: absolute;
+    width: 125px;
+    height: 16px;
+    left: 776px;
+    top: 557px;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100.5%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+
+    color: #2C4875;
+}
+
+
+.boton-registrar {
+    width: 725px;
+    height: 52px;
+    left: 497px;
+    top: 588px;
+
+    background: linear-gradient(91.07deg, #415A77 4.32%, #1B263B 97.37%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100.5%;
+    /* or 24px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.boton-registrar:hover {
+    box-shadow: 11px 0px 53px rgba(0, 82, 204, 0.17);
+}
+
+.imagen-fondo {
+    width: 884px;
+    height: 720px;
+}
+
+.imagendefondo {
+    position: absolute;
+    width: 884px;
+    height: 720px;
+    left: 396px;
+    top: 0px;
+    object-fit: cover;
+
+    opacity: 5%;
+}
